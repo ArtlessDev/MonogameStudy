@@ -24,6 +24,9 @@ C:\Code\MonogameTest\TrialGame\TrialGame\obj\Debug\net6.0\TrialGame.pdb
 C:\Code\MonogameTest\TrialGame\TrialGame\obj\Debug\net6.0\TrialGame.genruntimeconfig.cache
 C:\Code\MonogameTest\TrialGame\TrialGame\obj\Debug\net6.0\ref\TrialGame.dll
 C:\Code\MonogameTest\TrialGame\TrialGame\bin\Debug\net6.0\Content\playership.xnb
+C:\Code\MonogameStudy\TrialGame\TrialGame\bin\Debug\net6.0\Content\sprites\base-room.xnb
+C:\Code\MonogameStudy\TrialGame\TrialGame\bin\Debug\net6.0\Content\sprites\playership.xnb
+C:\Code\MonogameStudy\TrialGame\TrialGame\bin\Debug\net6.0\Content\sprites\wall-tile.xnb
 C:\Code\MonogameStudy\TrialGame\TrialGame\bin\Debug\net6.0\TrialGame.exe
 C:\Code\MonogameStudy\TrialGame\TrialGame\bin\Debug\net6.0\TrialGame.deps.json
 C:\Code\MonogameStudy\TrialGame\TrialGame\bin\Debug\net6.0\TrialGame.runtimeconfig.json
@@ -50,6 +53,4 @@ C:\Code\MonogameStudy\TrialGame\TrialGame\obj\Debug\net6.0\refint\TrialGame.dll
 C:\Code\MonogameStudy\TrialGame\TrialGame\obj\Debug\net6.0\TrialGame.pdb
 C:\Code\MonogameStudy\TrialGame\TrialGame\obj\Debug\net6.0\TrialGame.genruntimeconfig.cache
 C:\Code\MonogameStudy\TrialGame\TrialGame\obj\Debug\net6.0\ref\TrialGame.dll
-C:\Code\MonogameStudy\TrialGame\TrialGame\bin\Debug\net6.0\Content\sprites\playership.xnb
-C:\Code\MonogameStudy\TrialGame\TrialGame\bin\Debug\net6.0\Content\sprites\wall-tile.xnb
-C:\Code\MonogameStudy\TrialGame\TrialGame\bin\Debug\net6.0\Content\sprites\base-room.xnb
+C:\Code\MonogameStudy\TrialGame\TrialGame\bin\Debug\net6.0\Content\sprites\runner.xnb

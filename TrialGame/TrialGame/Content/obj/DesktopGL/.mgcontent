@@ -6,9 +6,11 @@
   <SourceFiles>
     <File>C:/Code/MonogameStudy/TrialGame/TrialGame/Content/sprites/base-room.png</File>
     <File>C:/Code/MonogameStudy/TrialGame/TrialGame/Content/sprites/playership.png</File>
+    <File>C:/Code/MonogameStudy/TrialGame/TrialGame/Content/sprites/runner.png</File>
     <File>C:/Code/MonogameStudy/TrialGame/TrialGame/Content/sprites/wall-tile.png</File>
   </SourceFiles>
   <DestFiles>
+    <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />
     <File xsi:nil="true" />

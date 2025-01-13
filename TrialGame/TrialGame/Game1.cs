@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using System;
+using System.Collections.Generic;
 using System.Diagnostics;
 
 namespace TrialGame
@@ -11,8 +11,10 @@ namespace TrialGame
         private GraphicsDeviceManager _graphics;
         private SpriteBatch _spriteBatch;
         PlayerController playerController;
-        PlayerController enemyController;
+        StagnantUnit enemyController;
         Texture2D _texture;
+        BaseRoom currentRoom;
+        List<StagnantUnit> stagnants;
 
         public Game1()
         {
@@ -35,15 +37,18 @@ namespace TrialGame
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
-
+            stagnants = new();
 
             _texture = Content.Load<Texture2D>("./sprites/base-room");
             playerController = new PlayerController();
-            playerController.UnitTexture = Content.Load<Texture2D>("./sprites/playership");
-            
-            enemyController = new PlayerController();
+            playerController.UnitTexture = Content.Load<Texture2D>("./sprites/runner");
+
+            currentRoom = new BaseRoom();
+
+            enemyController = new StagnantUnit();
             enemyController.UnitTexture = Content.Load<Texture2D>("./sprites/wall-tile");
-            enemyController.UnitRect = new Rectangle(100, 300, 128, 128);
+            enemyController.UnitRect = new Rectangle(100, 300, 64, 64);
+            stagnants.Add(enemyController);
             // TODO: use this.Content to load your game content here
         }
 
@@ -51,19 +56,21 @@ namespace TrialGame
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
-                
-            playerController.MovePlayer();
 
+            //foreach(var unit in stagnants)
+            //{
+                playerController.MovePlayer(currentRoom.GetRoomColliders());
+            //}
             if (Keyboard.GetState().IsKeyDown(Keys.Space))
             {
 
             }
 
 
-            if (playerController.UnitRect.Intersects(enemyController.UnitRect))
-            {
-                Debug.WriteLine("intersection");
-            }
+            //if (playerController.UnitRect.Intersects(enemyController.UnitRect))
+            //{
+            //    Debug.WriteLine("intersection");
+            //}
             // TODO: Add your update logic here
 
             base.Update(gameTime);
@@ -76,7 +83,7 @@ namespace TrialGame
             _spriteBatch.Begin(samplerState: SamplerState.PointClamp);
 
             //draws map
-            _spriteBatch.Draw(_texture, new Vector2(0,0), Color.White);
+            _spriteBatch.Draw(_texture, new Vector2(0, 0), Color.White);
 
             //draws
             _spriteBatch.Draw(playerController.UnitTexture, playerController.UnitRect, Color.White);
