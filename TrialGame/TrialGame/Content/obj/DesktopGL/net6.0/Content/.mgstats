@@ -1,2 +1,4 @@
 Source File,Dest File,Processor Type,Content Type,Source File Size,Dest File Size,Build Seconds
-"C:/Code/MonogameTest/TrialGame/TrialGame/Content/playership.png","C:/Code/MonogameTest/TrialGame/TrialGame/Content/bin/DesktopGL/Content/playership.xnb","TextureProcessor","Texture2DContent",2309,65621,0.0971286
+"C:/Code/MonogameStudy/TrialGame/TrialGame/Content/sprites/base-room.png","C:/Code/MonogameStudy/TrialGame/TrialGame/Content/bin/DesktopGL/Content/sprites/base-room.xnb","TextureProcessor","Texture2DContent",5382,1228885,0.1333807
+"C:/Code/MonogameStudy/TrialGame/TrialGame/Content/sprites/playership.png","C:/Code/MonogameStudy/TrialGame/TrialGame/Content/bin/DesktopGL/Content/sprites/playership.xnb","TextureProcessor","Texture2DContent",2309,65621,0.0959784
+"C:/Code/MonogameStudy/TrialGame/TrialGame/Content/sprites/wall-tile.png","C:/Code/MonogameStudy/TrialGame/TrialGame/Content/bin/DesktopGL/Content/sprites/wall-tile.xnb","TextureProcessor","Texture2DContent",249,4181,0.0030243

@@ -24,6 +24,10 @@ namespace TrialGame
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
+            _graphics.IsFullScreen = false;
+            _graphics.PreferredBackBufferWidth = 640;
+            _graphics.PreferredBackBufferHeight = 480;
+            _graphics.ApplyChanges();
             base.Initialize();
         }
 
@@ -31,12 +35,14 @@ namespace TrialGame
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
 
-            //_texture = Content.Load<Texture2D>("playership");
+
+
+            _texture = Content.Load<Texture2D>("./sprites/base-room");
             playerController = new PlayerController();
-            playerController.UnitTexture = Content.Load<Texture2D>("playership");
+            playerController.UnitTexture = Content.Load<Texture2D>("./sprites/playership");
             
             enemyController = new PlayerController();
-            enemyController.UnitTexture = Content.Load<Texture2D>("playership");
+            enemyController.UnitTexture = Content.Load<Texture2D>("./sprites/wall-tile");
             enemyController.UnitRect = new Rectangle(100, 300, 128, 128);
             // TODO: use this.Content to load your game content here
         }
@@ -69,7 +75,10 @@ namespace TrialGame
 
             _spriteBatch.Begin(samplerState: SamplerState.PointClamp);
 
-            //_spriteBatch.Draw(_texture, new Rectangle(100, 100, 100, 200), Color.White);
+            //draws map
+            _spriteBatch.Draw(_texture, new Vector2(0,0), Color.White);
+
+            //draws
             _spriteBatch.Draw(playerController.UnitTexture, playerController.UnitRect, Color.White);
             _spriteBatch.Draw(enemyController.UnitTexture, enemyController.UnitRect, Color.Red);
             _spriteBatch.End();

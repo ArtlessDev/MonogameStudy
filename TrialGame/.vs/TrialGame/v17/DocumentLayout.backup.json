@@ -1,38 +1,55 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Code\\MonogameTest\\TrialGame\\",
+  "WorkspaceRootPath": "C:\\Code\\MonogameStudy\\TrialGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{02299FA8-6539-48A2-B62F-7D97F26A6BB1}|TrialGame\\TrialGame.csproj|c:\\code\\monogametest\\trialgame\\trialgame\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{02299FA8-6539-48A2-B62F-7D97F26A6BB1}|TrialGame\\TrialGame.csproj|c:\\code\\monogamestudy\\trialgame\\trialgame\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02299FA8-6539-48A2-B62F-7D97F26A6BB1}|TrialGame\\TrialGame.csproj|solutionrelative:trialgame\\game1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02299FA8-6539-48A2-B62F-7D97F26A6BB1}|TrialGame\\TrialGame.csproj|c:\\code\\monogametest\\trialgame\\trialgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{02299FA8-6539-48A2-B62F-7D97F26A6BB1}|TrialGame\\TrialGame.csproj|solutionrelative:trialgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{02299FA8-6539-48A2-B62F-7D97F26A6BB1}|TrialGame\\TrialGame.csproj|c:\\code\\monogamestudy\\trialgame\\trialgame\\baseroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02299FA8-6539-48A2-B62F-7D97F26A6BB1}|TrialGame\\TrialGame.csproj|solutionrelative:trialgame\\baseroom.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{02299FA8-6539-48A2-B62F-7D97F26A6BB1}|TrialGame\\TrialGame.csproj|c:\\code\\monogametest\\trialgame\\trialgame\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{02299FA8-6539-48A2-B62F-7D97F26A6BB1}|TrialGame\\TrialGame.csproj|c:\\code\\monogamestudy\\trialgame\\trialgame\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{02299FA8-6539-48A2-B62F-7D97F26A6BB1}|TrialGame\\TrialGame.csproj|solutionrelative:trialgame\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02299FA8-6539-48A2-B62F-7D97F26A6BB1}|TrialGame\\TrialGame.csproj|c:\\code\\monogamestudy\\trialgame\\trialgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02299FA8-6539-48A2-B62F-7D97F26A6BB1}|TrialGame\\TrialGame.csproj|solutionrelative:trialgame\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 256,
+      "VerticalTabListWidth": 130,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BaseRoom.cs",
+              "DocumentMoniker": "C:\\Code\\MonogameStudy\\TrialGame\\TrialGame\\BaseRoom.cs",
+              "RelativeDocumentMoniker": "TrialGame\\BaseRoom.cs",
+              "ToolTip": "C:\\Code\\MonogameStudy\\TrialGame\\TrialGame\\BaseRoom.cs",
+              "RelativeToolTip": "TrialGame\\BaseRoom.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-13T04:02:02.312Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "PlayerController.cs",
-              "DocumentMoniker": "C:\\Code\\MonogameTest\\TrialGame\\TrialGame\\PlayerController.cs",
+              "DocumentMoniker": "C:\\Code\\MonogameStudy\\TrialGame\\TrialGame\\PlayerController.cs",
               "RelativeDocumentMoniker": "TrialGame\\PlayerController.cs",
-              "ToolTip": "C:\\Code\\MonogameTest\\TrialGame\\TrialGame\\PlayerController.cs",
+              "ToolTip": "C:\\Code\\MonogameStudy\\TrialGame\\TrialGame\\PlayerController.cs",
               "RelativeToolTip": "TrialGame\\PlayerController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAowDQAAABgAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADQAAABgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-13T01:09:21.438Z",
               "EditorCaption": ""
@@ -41,27 +58,26 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Game1.cs",
-              "DocumentMoniker": "C:\\Code\\MonogameTest\\TrialGame\\TrialGame\\Game1.cs",
+              "DocumentMoniker": "C:\\Code\\MonogameStudy\\TrialGame\\TrialGame\\Game1.cs",
               "RelativeDocumentMoniker": "TrialGame\\Game1.cs",
-              "ToolTip": "C:\\Code\\MonogameTest\\TrialGame\\TrialGame\\Game1.cs",
+              "ToolTip": "C:\\Code\\MonogameStudy\\TrialGame\\TrialGame\\Game1.cs",
               "RelativeToolTip": "TrialGame\\Game1.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAgwDkAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwE4AAABHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-01-10T18:28:20.356Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Code\\MonogameTest\\TrialGame\\TrialGame\\Program.cs",
+              "DocumentMoniker": "C:\\Code\\MonogameStudy\\TrialGame\\TrialGame\\Program.cs",
               "RelativeDocumentMoniker": "TrialGame\\Program.cs",
-              "ToolTip": "C:\\Code\\MonogameTest\\TrialGame\\TrialGame\\Program.cs",
+              "ToolTip": "C:\\Code\\MonogameStudy\\TrialGame\\TrialGame\\Program.cs",
               "RelativeToolTip": "TrialGame\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-10T18:28:08.996Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-10T18:28:08.996Z"
             }
           ]
         }
