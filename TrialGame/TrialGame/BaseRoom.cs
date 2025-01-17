@@ -9,12 +9,14 @@ namespace TrialGame
         string roomName;
         Texture2D texture;
         List<StagnantUnit> stagnants;
+        Rectangle roomRectangle;
 
         public  BaseRoom()
         {
             RoomName = "defaultName";
 
             stagnants = new List<StagnantUnit>();
+            roomRectangle = new Rectangle(0, 0, 640, 480);
         }
 
         public List<StagnantUnit> GetRoomColliders()
@@ -41,6 +43,11 @@ namespace TrialGame
         {
             get { return roomName; }
             set { roomName = value; }
+        }
+        public Rectangle RoomRectangle
+        {
+            get { return roomRectangle; }
+            set { roomRectangle = value; }
         }
 
         public List<StagnantUnit> DefaultColliders

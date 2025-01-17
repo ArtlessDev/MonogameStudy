@@ -61,11 +61,20 @@ namespace TrialGame
             //{
                 playerController.MovePlayer(currentRoom.GetRoomColliders());
             //}
+            
+
             if (Keyboard.GetState().IsKeyDown(Keys.Space))
             {
-
+                enemyController.UnitRect = enemyController.MoveProjectile(gameTime); 
+                
+                //gameTime.ElapsedGameTime.TotalSeconds + 5;
+                
             }
-
+            
+            //while (enemyController.UnitRect.Intersects(currentRoom.RoomRectangle))
+            //{
+            //    shot.MoveProjectile();
+            //}
 
             //if (playerController.UnitRect.Intersects(enemyController.UnitRect))
             //{
@@ -87,7 +96,7 @@ namespace TrialGame
 
             //draws
             _spriteBatch.Draw(playerController.UnitTexture, playerController.UnitRect, Color.White);
-            _spriteBatch.Draw(enemyController.UnitTexture, enemyController.UnitRect, Color.Red);
+            _spriteBatch.Draw(enemyController.UnitTexture, enemyController.UnitRect, Color.Blue);
             _spriteBatch.End();
             // TODO: Add your drawing code here
 

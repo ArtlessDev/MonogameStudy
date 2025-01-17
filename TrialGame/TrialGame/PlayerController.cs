@@ -87,9 +87,9 @@ namespace TrialGame
             this.UnitRect = new Rectangle(xCoord, yCoord, 32, 64);
 
             //playerController.UnitRect.Offset(xCoord+1, yCoord);
-            Debug.WriteLine("X: " + xCoord + ", Y: " + yCoord);
-            Debug.WriteLine("X: " + tempX + ", Y: " + tempY);
-            Debug.WriteLine("X: " + startingX + ", Y: " + startingY);
+            //Debug.WriteLine("X: " + xCoord + ", Y: " + yCoord);
+            //Debug.WriteLine("X: " + tempX + ", Y: " + tempY);
+            //Debug.WriteLine("X: " + startingX + ", Y: " + startingY);
 
         }
     }
